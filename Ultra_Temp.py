@@ -5,13 +5,12 @@ import time
 import matplotlib.pyplot as plt
 import os
 import random
-import pandas as pd
-import numpy as np
 from datetime import datetime
 
 
 # dht_device = adafruit_dht.DHT11(board.D17)
 # ultrasonic = DistanceSensor(echo =  18, trigger = 4)
+
 
 data = open("data.log",'a')
 
